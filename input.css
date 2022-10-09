@@ -1,0 +1,21 @@
+.sch{
+    border-radius: 10px;
+    outline: none;
+    width: 50%;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    margin: -50px 0 0 0; 
+
+    /* display:table;
+    margin:0 auto;*/
+    border:1px solid rgb(0, 0, 0); 
+    /* 毛玻璃 */
+    filter:Alpha(opacity=50); opacity: .5;
+   
+}
+.s{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
