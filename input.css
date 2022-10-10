@@ -1,21 +1,164 @@
 .sch{
-    border-radius: 10px;
-    outline: none;
-    width: 50%;
-    padding: 10px;
+    transition: all 0.4s ease 0s;
+    border-radius: 50px;
+ 
+    width: 30%;
+    padding: 20px;
     position: absolute;
-    top: 50%;
+    top: 30%;
+    margin: -50px 0 0 0; 
+    caret-color: #ffffff; /* 指定色 */
+
+
+    /* display:table;
+    margin:0 auto;*/
+
+    /* 毛玻璃 */
+    /* filter:Alpha(opacity=20); opacity: .20; */
+    background-color: transparent;
+    font-size:20px;
+    font-family: Arial, sans-serif;
+    backdrop-filter: blur(30px);
+    outline-style: none ;
+    border: 0px;
+
+
+   
+}
+
+.sch:hover{
+    transition: all 0.3s ease 0s;
+    border-radius: 50px;
+ 
+    width: 60%;
+    padding: 20px;
+    position: absolute;
+    top: 30%;
+    margin: -50px 0 0 0; 
+    caret-color: #ffffff; /* 指定色 */
+
+
+    /* display:table;
+    margin:0 auto;*/
+
+    /* 毛玻璃 */
+    /* filter:Alpha(opacity=20); opacity: .20; */
+    background-color: transparent;
+    font-size:20px;
+    font-family: Arial, sans-serif;
+    backdrop-filter: blur(30px);
+    outline-style: none ;
+    border: 0px;
+
+
+   
+}
+
+.cy{
+    transition: all 0.4s ease 0s;
+  
+    flex-wrap: wrap;
+    width: 20%;
+    padding: 5px;
+    position: absolute;
+    top: 30%;
+    margin: 50px 0 0 0; 
+    caret-color: #ffffff; /* 指定色 */
+
+
+    border-radius: 30px;
+    background-color: transparent;
+    font-size:20px;
+    font-family: Arial, sans-serif;
+    backdrop-filter: blur(30px);
+    outline-style: none ;
+    border: 0px;
+
+}
+
+.cy:hover{
+    transform: rotate(180dog); /* Equal to rotateZ(45deg) */
+    border-radius: 100px;
+    transition: all 0.4s ease 0s;
+
+    width: 30%;
+    padding: 50px;
+    position: absolute;
+    top: 30%;
+    margin: 50px 0 0 0; 
+    caret-color: #ffffff; /* 指定色 */
+
+
+    border-radius: 30px;
+    background-color: transparent;
+    font-size:20px;
+    font-family: Arial, sans-serif;
+    backdrop-filter: blur(30px);
+    outline-style: none ;
+    border: 0px;
+    
+}
+
+li{
+    border-radius: 10px;
+    
+}
+
+a{
+    font-size:20px;
+    font-family: Arial, sans-serif;
+}
+
+.cyli{
+    display: flex;
+   /* 水平置中 */
+   justify-content: center;    
+    /* 垂直置中 */
+    align-content: center;      
+    flex-wrap: wrap;
+}
+
+.m{
+    border-radius: 90px;
+    outline: none;
+    width: 60%;
+    padding: 20px;
+    position: absolute;
+    top: 30%;
     margin: -50px 0 0 0; 
 
     /* display:table;
     margin:0 auto;*/
-    border:1px solid rgb(0, 0, 0); 
+
     /* 毛玻璃 */
-    filter:Alpha(opacity=50); opacity: .5;
-   
+    filter:Alpha(opacity=20); opacity: .20;
+    filter: blur(5px);
+    z-index: -1;
+    backdrop-filter: blur(5px);
 }
+
 .s{
     display: flex;
     justify-content: center; 
     align-items: center; 
 }
+
+
+
+.box{
+    border-radius: 50px;
+    width: 10%;
+    padding: 5%;
+    display: flex;
+    /* 水平置中 */
+    justify-content: center;    
+    /* 垂直置中 */
+    align-content: center;      
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+}
+
+input::input-placeholder { text-align: center }
+
+
+
