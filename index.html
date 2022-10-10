@@ -1,5 +1,15 @@
+<!DOCTYPE html>
+<!-- HTML written by limestart.cn -->
+<!-- Copyright Mao Ruoxin & Shangzhen Yang. All Rights Reserved. -->
+<html lang="zh-CN">
+
 <head>
-    <link rel="stylesheet" href="bg.css">
+	<meta charset="utf-8">
+	<meta name="Description" content="一个简洁、美观、实用的浏览器起始页。">
+	<title>新标签页</title>
+
+	<script src="scripts/newtab-ext.js"></script>
+	<link rel="stylesheet" href="bg.css">
     <link rel="stylesheet" href="input.css">
     <script type="text/javascript" src="index.js"></script>
 
@@ -18,7 +28,8 @@
 
         <input id="m" class="m">
 
-        <input id="sch" class="sch" placeholder="搜索">
+      <form action="https://www.google.com/search" id="sif"></form>
+	  <input name="q" id="sch" class="sch" placeholder="搜索" form="sif">
 
         <!-- <img src="img/set.png" alt="" onclick="set()" class="set">
         <div class="setp">
@@ -33,19 +44,19 @@
             <div class="cyli">
 
                 <div class="box" style="margin:0 1%">
-                    <a href="https://www.bilibili.com/"><img src="img/bilibili.png" border="0"></a>
+                    <a href="https://www.bilibili.com/"><img src="img/bilibili.png"></a>
                 </div>
 
                 <div class="box" style="margin:0 1%">
-                    <a href="https://www.youtube.com/"><img src="img/youtube.png" border="0"></a>
+                    <a href="https://www.youtube.com/"><img src="img/youtube.png" ></a>
                 </div>
 
                 <div class="box" style="margin:0 1%">
-                    <a href="https://www.github.com/"><img src="img/github.png" border="0"></a>
+                    <a href="https://www.github.com/"><img src="img/github.png"></a>
                 </div>
 
                 <div class="box" style="margin:0 1%">
-                    <a href="https://www.google.com/"><img src="img/google.png" border="0"></a>
+                    <a href="https://www.google.com/"><img src="img/google.png"></a>
                 </div>
                 <!-- <li style="list-style-image: url('img/bilibili.png');"><a href="https://www.bilibili.com/" title="bilibili" target="_blank">bilibili</a></li>
                     <li style="list-style-image: url('img/google.png');">bilibili</li>
@@ -63,3 +74,5 @@
     </div>
 
 </body>
+
+</html>
