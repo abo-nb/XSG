@@ -18,7 +18,7 @@
     background-color: transparent;
     font-size:20px;
     font-family: Arial, sans-serif;
-    backdrop-filter: blur(30px);
+    backdrop-filter: blur(10px);
     outline-style: none ;
     border: 0px;
 
@@ -46,7 +46,7 @@
     background-color: transparent;
     font-size:20px;
     font-family: Arial, sans-serif;
-    backdrop-filter: blur(30px);
+    backdrop-filter: blur(10px);
     outline-style: none ;
     border: 0px;
 
@@ -77,6 +77,7 @@
 }
 
 .cy:hover{
+    
     transform: rotate(180dog); /* Equal to rotateZ(45deg) */
     border-radius: 100px;
     transition: all 0.4s ease 0s;
@@ -160,5 +161,28 @@ a{
 
 input::input-placeholder { text-align: center }
 
+.set{
+    transition: all 0.4s ease 0s;
+    transform: rotate(-180deg); /* Equal to rotateZ(45deg) */
+    margin: 0% 100% 10% 0; 
+   
 
+}
+.set:hover{
+    transition: all 0.4s ease 0s;
+    transform: rotate(180deg); /* Equal to rotateZ(45deg) */
+    size: 10%;
+  
+  
 
+}
+
+.setp{
+    background-color: #ffffff;
+    width: 60%;
+    height: 70%;
+}
+
+.time{
+    
+}
