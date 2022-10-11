@@ -15,7 +15,8 @@
 
     /* 毛玻璃 */
     /* filter:Alpha(opacity=20); opacity: .20; */
-    background-color: transparent;
+    /* background-color: transparent; */
+    background:rgba(53, 14, 14, 0.2);
     font-size:20px;
     font-family: Arial, sans-serif;
     backdrop-filter: blur(10px);
@@ -43,7 +44,8 @@
 
     /* 毛玻璃 */
     /* filter:Alpha(opacity=20); opacity: .20; */
-    background-color: transparent;
+    /* background-color: transparent; */
+    background:rgba(255, 255, 255, 0.5);
     font-size:20px;
     font-family: Arial, sans-serif;
     backdrop-filter: blur(10px);
@@ -185,6 +187,9 @@ input::input-placeholder { text-align: center }
     height: 70%;
 }
 
-.time{
+.tdiv{
     
+}
+.tdiv:hover{
+    rotate(90deg);
 }
