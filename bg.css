@@ -1,7 +1,10 @@
 body
 {
-background-image:url('https://api.ghser.com/random/api.php');
-background-repeat:no-repeat;
-background-position:right top;
+/* background-image:url('https://api.ghser.com/random/api.php'); */
+background-image:url('https://api.ixiaowai.cn/gqapi/gqapi.php');
+
+/* background-repeat:no-repeat;
+background-position:right top; */
 background-size: 100%;
+
 }
