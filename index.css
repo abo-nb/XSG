@@ -1,0 +1,232 @@
+.sch{
+    transition: all 0.4s ease 0s;
+    border-radius: 50px;
+ 
+    width: 30%;
+    padding: 20px;
+    position: absolute;
+    top: 30%;
+    margin: -50px 0 0 0; 
+    caret-color: #ffffff; /* 指定色 */
+    
+
+    /* display:table;
+    margin:0 auto;*/
+
+    /* 毛玻璃 */
+    /* filter:Alpha(opacity=20); opacity: .20; */
+    /* background-color: transparent; */
+    background:rgba(53, 14, 14, 0.2);
+    font-size:20px;
+    font-family: Arial, sans-serif;
+    backdrop-filter: blur(10px);
+    outline-style: none ;
+    border: 0px;
+
+
+   
+}
+
+.sch:hover{
+    transition: all 0.3s ease 0s;
+    border-radius: 50px;
+ 
+    width: 60%;
+    padding: 20px;
+    position: absolute;
+    top: 30%;
+    margin: -50px 0 0 0; 
+    caret-color: #ffffff; /* 指定色 */
+
+
+    /* display:table;
+    margin:0 auto;*/
+
+    /* 毛玻璃 */
+    /* filter:Alpha(opacity=20); opacity: .20; */
+    /* background-color: transparent; */
+    background:rgba(255, 255, 255, 0.5);
+    font-size:20px;
+    font-family: Arial, sans-serif;
+    backdrop-filter: blur(10px);
+    outline-style: none ;
+    border: 0px;
+
+
+   
+}
+
+/* input::-ms-input-placeholder{text-align: center; font-c;}
+
+input::-webkit-input-placeholder{text-align: center;} */
+
+
+
+body {
+    background-image:url(https://tuapi.eees.cc/api.php?category=fengjing&type=302) ;//图片类型更换请修改参数  
+    
+    
+    background-repeat:repeat;
+    background-attachment:fixed ;
+    background-position:50% 50%;
+};
+
+
+::placeholder{
+    background-blend-mode: screen, multiply;
+}
+
+
+.cy{
+    transition: all 0.4s ease 0s;
+  
+    flex-wrap: wrap;
+    width: 20%;
+    padding: 5px;
+    position: absolute;
+    top: 30%;
+    margin: 50px 0 0 0; 
+    caret-color: #ffffff; /* 指定色 */
+
+
+    border-radius: 30px;
+    background-color: transparent;
+    font-size:20px;
+    font-family: Arial, sans-serif;
+    backdrop-filter: blur(30px);
+    outline-style: none ;
+    border: 0px;
+
+}
+
+.cy:hover{
+    
+    transform: rotate(180dog); /* Equal to rotateZ(45deg) */
+    border-radius: 100px;
+    transition: all 0.4s ease 0s;
+
+    width: 30%;
+    padding: 50px;
+    position: absolute;
+    top: 30%;
+    margin: 50px 0 0 0; 
+    caret-color: #ffffff; /* 指定色 */
+
+
+    border-radius: 30px;
+    background-color: transparent;
+    font-size:20px;
+    font-family: Arial, sans-serif;
+    backdrop-filter: blur(30px);
+    outline-style: none ;
+    border: 0px;
+    
+}
+
+li{
+    border-radius: 10px;
+    
+}
+
+a{
+    font-size:20px;
+    font-family: Arial, sans-serif;
+}
+
+.cyli{
+    display: flex;
+   /* 水平置中 */
+   justify-content: center;    
+    /* 垂直置中 */
+    align-content: center;      
+    flex-wrap: wrap;
+}
+
+
+
+.m{
+    border-radius: 90px;
+    outline: none;
+    width: 60%;
+    padding: 20px;
+    position: absolute;
+    top: 30%;
+    margin: -50px 0 0 0; 
+
+    /* display:table;
+    margin:0 auto;*/
+
+    /* 毛玻璃 */
+    filter:Alpha(opacity=20); opacity: .20;
+    filter: blur(5px);
+    z-index: -1;
+    backdrop-filter: blur(5px);
+}
+
+.s{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+
+.box{
+    transition: all 0.4s ease 0s;
+    border-radius: 50px;
+    width: 10%;
+    padding: 5%;
+    display: flex;
+    /* 水平置中 */
+    justify-content: center;    
+    /* 垂直置中 */
+    align-content: center;      
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+}
+.box:hover{
+    transition: all 0.4s ease 0s;
+    
+    border-radius: 50px;
+    width: 20%;
+    padding: 5%;
+    display: flex;
+    /* 水平置中 */
+    justify-content: center;    
+    /* 垂直置中 */
+    align-content: center;      
+    flex-wrap: wrap;
+    background-color: rgb(110, 110, 110);
+}
+
+
+
+
+.set{
+    transition: all 0.4s ease 0s;
+    transform: rotate(-180deg); /* Equal to rotateZ(45deg) */
+    margin: 0% 100% 10% 0; 
+   
+
+}
+.set:hover{
+    transition: all 0.4s ease 0s;
+    transform: rotate(180deg); /* Equal to rotateZ(45deg) */
+    size: 10%;
+  
+  
+
+}
+
+.setp{
+    background-color: #ffffff;
+    width: 60%;
+    height: 70%;
+}
+
+.tdiv{
+    
+}
+.tdiv:hover{
+    rotate(90deg);
+}
