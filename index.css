@@ -22,7 +22,7 @@
     backdrop-filter: blur(10px);
     outline-style: none ;
     border: 0px;
-
+    opacity: 100%;
 
    
 }
@@ -56,6 +56,36 @@
    
 }
 
+.schoff{
+    transition: all 0.4s ease 0s;
+    border-radius: 50px;
+ 
+    width: 30%;
+    padding: 20px;
+    position: absolute;
+    top: 30%;
+    margin: -50px 0 0 0; 
+    caret-color: #ffffff; /* 指定色 */
+    
+
+    /* display:table;
+    margin:0 auto;*/
+
+    /* 毛玻璃 */
+    /* filter:Alpha(opacity=20); opacity: .20; */
+    /* background-color: transparent; */
+    background:rgba(53, 14, 14, 0.2);
+    font-size:20px;
+    font-family: Arial, sans-serif;
+    backdrop-filter: blur(10px);
+    outline-style: none ;
+    border: 0px;
+    opacity: 0%;
+
+
+   
+}
+
 /* input::-ms-input-placeholder{text-align: center; font-c;}
 
 input::-webkit-input-placeholder{text-align: center;} */
@@ -65,11 +95,20 @@ input::-webkit-input-placeholder{text-align: center;} */
 body {
     background-image:url(https://tuapi.eees.cc/api.php?category=fengjing&type=302) ;//图片类型更换请修改参数  
     
+
+    
     
     background-repeat:repeat;
     background-attachment:fixed ;
     background-position:50% 50%;
+
+    background-image:url('https://api.ghser.com/random/api.php');
+    background-repeat:no-repeat;
+    background-position:right top;
+    background-size: 100%;
 };
+
+
 
 
 ::placeholder{
@@ -78,7 +117,7 @@ body {
 
 
 .cy{
-    transition: all 0.4s ease 0s;
+    transition: all 0.3s ease 0s;
   
     flex-wrap: wrap;
     width: 20%;
@@ -121,6 +160,29 @@ body {
     outline-style: none ;
     border: 0px;
     
+}
+
+.cyon{
+    transform: rotate(180dog); /* Equal to rotateZ(45deg) */
+    border-radius: 100px;
+    transition: all 0.3s ease 0s;
+
+    width: 70%;
+    padding: 10%;
+    position: absolute;
+    top: 30%;
+    margin: -2% 0 0 0; 
+    caret-color: #ffffff; /* 指定色 */
+
+
+    border-radius: 30px;
+    /* background-color: transparent; */
+    font-size:20px;
+    font-family: Arial, sans-serif;
+    backdrop-filter: blur(40px);
+    outline-style: none ;
+    border: 0px;
+
 }
 
 li{
@@ -202,14 +264,20 @@ a{
 
 
 
-.set{
+.setbutton{
+    top:0;/*最上*/     
+    position: fixed;/*固定*/
+    float: right;/*在右*/   
     transition: all 0.4s ease 0s;
     transform: rotate(-180deg); /* Equal to rotateZ(45deg) */
     margin: 0% 100% 10% 0; 
    
 
 }
-.set:hover{
+.setbutton:hover{
+    top:0;/*最上*/     
+    position: fixed;/*固定*/
+    float: right;/*在右*/   
     transition: all 0.4s ease 0s;
     transform: rotate(180deg); /* Equal to rotateZ(45deg) */
     size: 10%;
@@ -219,9 +287,17 @@ a{
 }
 
 .setp{
+    visibility: hidden;
     background-color: #ffffff;
     width: 60%;
-    height: 70%;
+    height: 60%;
+    display: flex;
+   /* 水平置中 */
+   justify-content: center;    
+    /* 垂直置中 */
+    align-content: center;      
+    flex-wrap: wrap;
+    border-radius: 5px;
 }
 
 .tdiv{
@@ -229,4 +305,33 @@ a{
 }
 .tdiv:hover{
     rotate(90deg);
+    
+    
 }
+
+.rjcd{
+    transition: all 0.4s ease 0s;
+    display:none;
+    top:0;/*最上*/     
+    float: right;/*在右*/  
+    position: fixed;/*固定*/ 
+}
+
+.rjcdon{
+    transition: all 0.4s ease 0s;
+    display:block;
+    top:0;/*最上*/     
+    float: right;/*在右*/   
+    position: fixed;/*固定*/
+}
+
+.yy{
+    display: flex;
+    /* 水平置中 */
+    justify-content: center; 
+    　top:800px;
+　left:80px   
+}
+
+
+
