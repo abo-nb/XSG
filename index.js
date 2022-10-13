@@ -25,6 +25,12 @@ function set(){
     }
 }
 
+function r18(){
+   
+alert("？想瑟瑟？");
+window.location.replace("https://youtu.be/dQw4w9WgXcQ");
+}
+
 function v(){
     alert("123");
 
