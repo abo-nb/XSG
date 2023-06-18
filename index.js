@@ -80,7 +80,7 @@ function load(){
     
 
     const Http = new XMLHttpRequest();
-    const url='https://api.uixsj.cn/hitokoto/get';
+    const url='https://v1.hitokoto.cn/?encode=text';
     Http.open("GET", url);
     Http.send();
 
@@ -95,7 +95,7 @@ function resp(){
     
 
     const Http = new XMLHttpRequest();
-    const url='https://api.uixsj.cn/hitokoto/get';
+    const url='https://v1.hitokoto.cn/?encode=text';
     Http.open("GET", url);
     Http.send();
 
